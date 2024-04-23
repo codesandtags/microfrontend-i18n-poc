@@ -1,0 +1,4 @@
+.card-image {
+  height: 200px; /* Fixed height for consistency */
+  object-fit: cover; /* Ensure images cover the card area */
+}

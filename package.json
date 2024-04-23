@@ -1,0 +1,25 @@
+{
+  "name": "microfrontend-i18n-poc",
+  "version": "1.0.0",
+  "description": "This is a PoC to demonstrate how to implement i18n in a micro frontend architecture.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npm run start",
+    "start": "lerna run start --parallel",
+    "build": "lerna run build --stream"
+  },
+  "keywords": [],
+  "author": "codesandtags <codesandtags@gmail.com>",
+  "license": "ISC",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^8.1.2"
+  }
+}
